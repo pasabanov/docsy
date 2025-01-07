@@ -6,7 +6,6 @@ author: >
   for the [Docsy Steering
   Committee](/blog/2022/hello/#introducing-the-psc)
 date: 2023-11-28
-# prettier-ignore
 cSpell:ignore: CNCF Chalin opentelemetry namespacing docsy customizability deprioritize
 ---
 

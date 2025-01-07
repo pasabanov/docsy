@@ -144,35 +144,6 @@ Press **Ctrl + C** to stop the container.
 [docker]: https://docs.docker.com/get-docker/
 [docker-compose]: https://docs.docker.com/compose/install/
 
-### User guide formatting
-
-We use [Prettier](https://prettier.io) to format the markdown source of the User
-Guide. To to check the formatting of your documentation changes, use the
-following command:
-
-```bash
-npm run check:format
-```
-
-To automatically fix formatting issues, run `npm run fix:format`.
-
-Prettier doesn't currently understand Hugo template language directives,
-so you might need to bracket such directives using the following ignore
-directives:
-
-```go-html-template
-<!-- prettier-ignore-start -->
-{{</* tabpane */>}}
-...
-{{</* /tabpane */>}}
-<!-- prettier-ignore-end -->
-```
-
-You can use these ignore directives to surround any markdown that you'd like
-Prettier to ignore. If the region is a contiguous block of text, then you can
-omit the end directive and replace the start directive with
-`prettier-ignore-start`.
-
 ### Creating an issue
 
 If there's something you'd like to see in the docs, but you're not sure how to

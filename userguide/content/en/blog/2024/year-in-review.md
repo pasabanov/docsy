@@ -9,7 +9,6 @@ description: >-
   Celebrating Docsy's 2024 growth in features and adoption, including a 57%
   usage increase, new features like dark mode, and improved internationalization
   support.
-# prettier-ignore
 cSpell:ignore: Chalin jaegertracing mentees opentelemetry toto upvoted kubernetes theupdateframework Dindi Dariksha Ansari
 ---
 

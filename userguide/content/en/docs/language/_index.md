@@ -17,7 +17,6 @@ have its own language-specific configuration. For example, the [Docsy example]
 site config specifies that it provides content in English, Norwegian, and
 Persian. The default language is English:
 
-<!-- prettier-ignore-start -->
 {{< tabpane >}}
 {{< tab header="Configuration file:" disabled=true />}}
 {{< tab header="hugo.toml" lang="toml" >}}
@@ -91,7 +90,6 @@ languages:
 }
 {{< /tab >}}
 {{< /tabpane >}}
-<!-- prettier-ignore-end -->
 
 Any setting not defined in a `[languages]` block will fall back to the global
 value for that setting: so, for example, the content directory used for the site

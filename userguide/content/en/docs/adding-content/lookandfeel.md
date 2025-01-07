@@ -199,7 +199,6 @@ using Chroma, see [Syntax Highlighting].
 Hugo's default Chroma style is [monokai]. To use another style, such as [tango],
 add the following to your project configuration:
 
-<!-- prettier-ignore -->
 {{< tabpane >}}
 {{< tab header="Configuration file:" disabled=true />}}
 {{< tab header="hugo.toml" lang="toml" >}}
@@ -270,7 +269,6 @@ button in the top right-hand corner. To disable this functionality, set
 Optionally, you can enable Prism syntax highlighting in your
 `hugo.toml`/`hugo.yaml`/`hugo.json`:
 
-<!-- prettier-ignore -->
 {{< tabpane >}}
 {{< tab header="Configuration file:" disabled=true />}}
 {{< tab header="hugo.toml" lang="toml" >}}
@@ -373,7 +371,6 @@ To enable the display of a light/[dark mode] menu in the navbar, set
 file. The dropdown menu appears at the right, immediately before the [search
 box], if present.
 
-<!-- prettier-ignore -->
 {{< tabpane >}}
 {{< tab header="Configuration file:" disabled=true />}}
 {{< tab header="hugo.toml" lang="toml" >}}
@@ -453,7 +450,6 @@ table. From the resulting `<table>` style base, it is easier to apply your own
 custom styles (rather than trying to undo Docsy table styling), as is
 illustrated in the following example:
 
-<!-- prettier-ignore -->
 ```markdown
 | Shape    | Number of sides |
 | -------- | --------------- |
@@ -465,13 +461,11 @@ illustrated in the following example:
 The example above uses [Markdown attribute][] syntax, and might render like
 this:
 
-<!-- prettier-ignore-start -->
 | Shape    | Number of sides |
 | -------- | --------------- |
 | Triangle | 3               |
 | Square   | 4               |
 {.td-initial .table .table-dark}
-<!-- prettier-ignore-end -->
 
 [Bootstrap table]: https://getbootstrap.com/docs/5.3/content/tables/
 [Markdown attribute]: https://discourse.gohugo.io/t/markdown-attributes/41783
@@ -508,7 +502,6 @@ Both `head.html` and `scripts.html` are then used to build Docsy's
 [base page layout](https://github.com/google/docsy/blob/main/layouts/_default/baseof.html),
 which is used by all the other page templates:
 
-<!-- prettier-ignore -->
 ```html
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
@@ -535,7 +528,6 @@ which is used by all the other page templates:
 By default, Docsy adds the `td-{{ .Kind }}` class, where the kind is the kind of
 the page, like section, blog, and so on. For example:
 
-<!-- prettier-ignore -->
 ```html
 <body class="td-section">
 ```
@@ -554,7 +546,6 @@ body_class: myclass anotherclass
 
 The page's opening body tag will look like this (assuming it is a section page):
 
-<!-- prettier-ignore -->
 ```html
 <body class="td-section myclass anotherclass">
 ```

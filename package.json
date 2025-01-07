@@ -7,7 +7,6 @@
   "license": "Apache-2.0",
   "scripts": {
     "_cd:docs": "cd userguide &&",
-    "_check:format": "npx prettier --check .??* *.md",
     "_cp:bs-rfs": "npx cpy 'node_modules/bootstrap/scss/vendor/*' assets/_vendor/bootstrap/scss/",
     "_diff:check": "git diff --name-only --exit-code",
     "_gen-chroma-styles": "bash -c tools/gen-chroma-styles.sh && bash -c 'tools/gen-chroma-styles.sh -s onedark -o _dark.scss'",
@@ -42,8 +41,7 @@
     "cpy-cli": "^5.0.0",
     "hugo-extended": "^0.140.2",
     "netlify-cli": "^18.0.0",
-    "npm-check-updates": "^17.1.13",
-    "prettier": "^3.4.2"
+    "npm-check-updates": "^17.1.13"
   },
   "engines": {
     "node": ">=22"

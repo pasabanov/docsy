@@ -2,7 +2,6 @@
   "name": "docsy-user-guide",
   "scripts": {
     "_build": "npm run _hugo-dev --",
-    "_check:format": "npx prettier --prose-wrap=always --check .",
     "_check:links--warn": "npm run _check:links || (echo; echo 'WARNING: see link-checker output for issues.'; echo)",
     "_check:links": "make --keep-going check-links",
     "_hugo-dev": "npm run _hugo -- -e dev -DFE",
