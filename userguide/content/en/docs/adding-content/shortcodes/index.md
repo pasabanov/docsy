@@ -64,7 +64,7 @@ Note that the relevant shortcode parameters above will have sensible defaults, b
 | byline | Byline text on featured image. |
 
 
-To set the background image, place an image with the word "background" in the name in the page's [Page Bundle](/docs/adding-content/content/#page-bundles). For example, in our the example site the background image in the home page's cover block is [`featured-background.jpg`](https://github.com/google/docsy-example/tree/main/content/en), in the same directory.
+To set the background image, place an image with the word "background" in the name in the page's [Page Bundle](/docs/adding-content/content/#page-bundles). For example, in our the example site the background image in the home page's cover block is [`featured-background.jpg`](https://github.com/pasabanov/docsy-example/tree/main/content/en), in the same directory.
 
 {{% alert title="Tip" %}}
 If you also include the word **featured** in the image name, e.g. `my-featured-background.jpg`, it will also be used as the Twitter Card image when shared.
@@ -129,7 +129,7 @@ We do a [Pull Request](https://github.com/gohugoio/hugo/pulls) contributions wor
 | ---------------- |------------| ------------|
 | title | | The title to use.
 | url | | The URL to link to.
-| url_text | The [language parameter](/docs/language/#internationalization-bundles) value of [`ui_read_more`](https://github.com/google/docsy/blob/main/i18n/en.toml) | The link text to use.
+| url_text | The [language parameter](/docs/language/#internationalization-bundles) value of [`ui_read_more`](https://github.com/pasabanov/docsy/blob/main/i18n/en.toml) | The link text to use.
 | icon | | The icon class to use.
 
 
@@ -249,7 +249,7 @@ resources:
 
 ### swaggerui
 
-You can place the `swaggerui` shortcode anywhere inside a page with the [`swagger` layout](https://github.com/google/docsy/tree/main/layouts/swagger); it renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source. This file can be hosted anywhere you like, for example in your site's root [`/static` folder](/docs/adding-content/content/#adding-static-content).
+You can place the `swaggerui` shortcode anywhere inside a page with the [`swagger` layout](https://github.com/pasabanov/docsy/tree/main/layouts/swagger); it renders [Swagger UI](https://swagger.io/tools/swagger-ui/) using any OpenAPI YAML or JSON file as source. This file can be hosted anywhere you like, for example in your site's root [`/static` folder](/docs/adding-content/content/#adding-static-content).
 
 {{< tabpane >}}
 {{< tab header="Front matter:" disabled=true />}}

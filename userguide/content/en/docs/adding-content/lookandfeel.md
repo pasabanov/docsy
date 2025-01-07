@@ -42,13 +42,13 @@ place them inside your project's `assets/scss/` folder:
   including overriding any of the styles in Docsy's theme SCSS files.
 
 [`_styles_project.scss`]:
-  https://github.com/google/docsy/blob/main/assets/scss/_styles_project.scss
+  https://github.com/pasabanov/docsy/blob/main/assets/scss/_styles_project.scss
 [`_variables.scss`]:
-  https://github.com/google/docsy/blob/main/assets/scss/_variables.scss
+  https://github.com/pasabanov/docsy/blob/main/assets/scss/_variables.scss
 [`_variables_project.scss`]:
-  https://github.com/google/docsy/blob/main/assets/scss/_variables_project.scss
+  https://github.com/pasabanov/docsy/blob/main/assets/scss/_variables_project.scss
 [`_variables_project_after_bs.scss`]:
-  https://github.com/google/docsy/blob/main/assets/scss/_variables_project_after_bs.scss
+  https://github.com/pasabanov/docsy/blob/main/assets/scss/_variables_project_after_bs.scss
 [bs_var]: https://github.com/twbs/bootstrap/blob/v5.3.3/scss/_variables.scss
 
 {{% alert title="Tip" %}}
@@ -244,9 +244,9 @@ to the appropriate file:
 - [assets/scss/td/chroma/_dark.scss]
 
 [assets/scss/td/chroma/_dark.scss]:
-  https://github.com/google/docsy/blob/main/assets/scss/td/chroma/_dark.scss
+  https://github.com/pasabanov/docsy/blob/main/assets/scss/td/chroma/_dark.scss
 [assets/scss/td/chroma/_light.scss]:
-  https://github.com/google/docsy/blob/main/assets/scss/td/chroma/_light.scss
+  https://github.com/pasabanov/docsy/blob/main/assets/scss/td/chroma/_light.scss
 [Hugo generated Chroma styles]:
   https://gohugo.io/commands/hugo_gen_chromastyles/
 [light/dark mode]: #lightdark-color-themes
@@ -354,7 +354,7 @@ of the following:
     }
     ```
 
-[_nav.scss]: https://github.com/google/docsy/blob/main/assets/scss/_nav.scss
+[_nav.scss]: https://github.com/pasabanov/docsy/blob/main/assets/scss/_nav.scss
 [project-styles]: /docs/adding-content/lookandfeel/#project-style-files
 [wordmark]: https://en.wikipedia.org/wiki/Wordmark
 [your logo]: /docs/adding-content/iconsimages/#add-your-logo
@@ -483,9 +483,9 @@ layouts/partials/hooks/head-end.html
 
 And add the code you need in that file. Your partial code is automatically
 included just before the end of the theme partial
-[`head.html`](https://github.com/google/docsy/blob/main/layouts/partials/head.html).
+[`head.html`](https://github.com/pasabanov/docsy/blob/main/layouts/partials/head.html).
 The theme version of
-[`head-end.html`](https://github.com/google/docsy/blob/main/layouts/partials/hooks/head-end.html)
+[`head-end.html`](https://github.com/pasabanov/docsy/blob/main/layouts/partials/hooks/head-end.html)
 is empty.
 
 Similarly, if you want to add some code right before the `body` end, create your
@@ -496,10 +496,10 @@ layouts/partials/hooks/body-end.html
 ```
 
 Any code in this file is included automatically at the end of the theme partial
-[`scripts.html`](https://github.com/google/docsy/blob/main/layouts/partials/head.html).
+[`scripts.html`](https://github.com/pasabanov/docsy/blob/main/layouts/partials/head.html).
 
 Both `head.html` and `scripts.html` are then used to build Docsy's
-[base page layout](https://github.com/google/docsy/blob/main/layouts/_default/baseof.html),
+[base page layout](https://github.com/pasabanov/docsy/blob/main/layouts/_default/baseof.html),
 which is used by all the other page templates:
 
 ```html

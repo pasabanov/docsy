@@ -100,7 +100,7 @@ repo.
       ## Release summary
 
       - [Release report](https://www.docsy.dev/blog/2024/0.X.Y/)
-      - [CHANGELOG](https://github.com/google/docsy/blob/main/CHANGELOG.md#0XY)
+      - [CHANGELOG](https://github.com/pasabanov/docsy/blob/main/CHANGELOG.md#0XY)
       ```
 
     - Select **Create a discussion for this release**.
@@ -123,16 +123,16 @@ further changes are merged into the default branch:
    - **Create a new entry** for the next release by copying the ENTRY TEMPLATE
      at the end of the file.
    - **Pin the 0.X.Y release URL**, which ends with `latest?FIXME=...`, to the
-     v0.X.Y release at `https://github.com/google/docsy/releases/v0.x.y`.
+     v0.X.Y release at `https://github.com/pasabanov/docsy/releases/v0.x.y`.
 3. **Submit a PR with your changes**, using a title like "Set NPM package
    version to next unreleased dev version".
 4. **Get PR approved and merged**.
 
-[CHANGELOG]: https://github.com/google/docsy/blob/main/CHANGELOG.md
+[CHANGELOG]: https://github.com/pasabanov/docsy/blob/main/CHANGELOG.md
 [contribution guidelines]: https://www.docsy.dev/docs/contribution-guidelines/
-[docsy-example]: https://github.com/google/docsy-example
-[Draft a new release]: https://github.com/google/docsy/releases/new
-[go.mod]: https://github.com/google/docsy/blob/main/go.mod
-[package.json]: https://github.com/google/docsy/blob/main/package.json
+[docsy-example]: https://github.com/pasabanov/docsy-example
+[Draft a new release]: https://github.com/pasabanov/docsy/releases/new
+[go.mod]: https://github.com/pasabanov/docsy/blob/main/go.mod
+[package.json]: https://github.com/pasabanov/docsy/blob/main/package.json
 [userguide/hugo.yaml]:
-  https://github.com/google/docsy/blob/main/userguide/hugo.yaml
+  https://github.com/pasabanov/docsy/blob/main/userguide/hugo.yaml

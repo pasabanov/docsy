@@ -21,12 +21,12 @@ At your command prompt, run the following:
 hugo new site my-new-site
 cd  my-new-site
 hugo mod init github.com/me/my-new-site
-hugo mod get github.com/google/docsy@v{{% param "version" %}}
+hugo mod get github.com/pasabanov/docsy@v{{% param "version" %}}
 cat >> hugo.toml <<EOL
 [module]
 proxy = "direct"
 [[module.imports]]
-path = "github.com/google/docsy"
+path = "github.com/pasabanov/docsy"
 EOL
 hugo server
 {{< /tab >}}
@@ -34,14 +34,14 @@ hugo server
 hugo new site my-new-site
 cd  my-new-site
 hugo mod init github.com/me/my-new-site
-hugo mod get github.com/google/docsy@v{{% param "version" %}}
+hugo mod get github.com/pasabanov/docsy@v{{% param "version" %}}
 (echo [module]^
 
 proxy = "direct"^
 
 [[module.imports]]^
 
-path = "github.com/google/docsy") >> hugo.toml
+path = "github.com/pasabanov/docsy") >> hugo.toml
 hugo server
 {{< /tab >}}
 {{< /tabpane >}}
@@ -51,7 +51,7 @@ You now can preview your new site inside your browser at [http://localhost:1313]
 
 ## Detailed Setup instructions
 
-Specifying the [Docsy theme](https://github.com/google/docsy) as Hugo Module for your minimal site gives you all the theme-y goodness, but you'll need to specify your own site structure.
+Specifying the [Docsy theme](https://github.com/pasabanov/docsy) as Hugo Module for your minimal site gives you all the theme-y goodness, but you'll need to specify your own site structure.
 
 ### Create your new skeleton project
 
@@ -82,7 +82,7 @@ This creates two new files, `go.mod` for the module definitions and `go.sum` whi
 Next declare the Docsy theme module as a dependency for your site.
 
 ```bash
-hugo mod get github.com/google/docsy@v{{% param "version" %}}
+hugo mod get github.com/pasabanov/docsy@v{{% param "version" %}}
 ```
 
 This command adds the `docsy` theme module to your definition file `go.mod`.
@@ -97,12 +97,12 @@ Add the settings in the following snippet at the end of your site's [configurati
 [module]
   proxy = "direct"
   # uncomment line below for temporary local development of module
-  # replacements = "github.com/google/docsy -> ../../docsy"
+  # replacements = "github.com/pasabanov/docsy -> ../../docsy"
   [module.hugoVersion]
     extended = true
     min = "0.73.0"
   [[module.imports]]
-    path = "github.com/google/docsy"
+    path = "github.com/pasabanov/docsy"
     disable = false
 {{< /tab >}}
 {{< tab header="hugo.yaml" lang="yaml" >}}
@@ -112,7 +112,7 @@ module:
     extended: true
     min: 0.73.0
   imports:
-    - path: github.com/google/docsy
+    - path: github.com/pasabanov/docsy
       disable: false
 {{< /tab >}}
 {{< tab header="hugo.json"  lang="json" >}}
@@ -125,7 +125,7 @@ module:
     },
     "imports": [
       {
-        "path": "github.com/google/docsy",
+        "path": "github.com/pasabanov/docsy",
         "disable": false
       }
     ]
@@ -153,7 +153,7 @@ You may get Hugo errors for missing parameters and values when you try to build 
 
 * Add some [basic configuration](/docs/get-started/basic-configuration/)
 * [Add content and customize your site](/docs/adding-content/)
-* Get some ideas from our [Example Site](https://github.com/google/docsy-example) and other [Examples](/docs/examples/).
+* Get some ideas from our [Example Site](https://github.com/pasabanov/docsy-example) and other [Examples](/docs/examples/).
 * [Publish your site](/docs/deployment/).
 
 [configuration file]: https://gohugo.io/getting-started/configuration/#configuration-file

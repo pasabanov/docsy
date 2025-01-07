@@ -29,16 +29,16 @@ The URL for your site's source repository. This is used to generate the **Edit t
 {{< tab header="Configuration file:" disabled=true />}}
 {{< tab header="hugo.toml" lang="toml" >}}
 [params]
-github_repo = "https://github.com/google/docsy"
+github_repo = "https://github.com/pasabanov/docsy"
 {{< /tab >}}
 {{< tab header="hugo.yaml" lang="yaml" >}}
 params:
-  github_repo: https://github.com/google/docsy
+  github_repo: https://github.com/pasabanov/docsy
 {{< /tab >}}
 {{< tab header="hugo.json" lang="json" >}}
 {
   "params": {
-    "github_repo": "https://github.com/google/docsy"
+    "github_repo": "https://github.com/pasabanov/docsy"
   }
 }
 {{< /tab >}}
@@ -75,16 +75,16 @@ Specify a value here if you have a separate project repo and you'd like your use
 {{< tab header="Configuration file:" disabled=true />}}
 {{< tab header="hugo.toml" lang="toml" >}}
 [params]
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/pasabanov/docsy"
 {{< /tab >}}
 {{< tab header="hugo.yaml" lang="yaml" >}}
 params:
-  github_project_repo: https://github.com/google/docsy
+  github_project_repo: https://github.com/pasabanov/docsy
 {{< /tab >}}
 {{< tab header="hugo.json" lang="json" >}}
 {
   "params": {
-    "github_project_repo": "https://github.com/google/docsy"
+    "github_project_repo": "https://github.com/pasabanov/docsy"
   }
 }
 {{< /tab >}}
@@ -353,7 +353,7 @@ for your project.
 
 Class names using the `--KIND` suffix were deprecated as of [v0.9.0].
 
-[v0.9.0]: https://github.com/google/docsy/blob/main/CHANGELOG.md/#090
+[v0.9.0]: https://github.com/pasabanov/docsy/blob/main/CHANGELOG.md/#090
 
 {{% /alert %}}
 
@@ -368,7 +368,7 @@ A last-modified page note looks something like this:
 > <div class="td-page-meta__lastmod"
 >      style="margin-top: 0 !important; display: block !important;">
 >
-> Last modified November 29, 2023: [Release v0.8.0 preparation (#1756) (6bb4f99)](https://github.com/google/docsy/commit/6bb4f99d1eab4976fb80d1488c81ba12b1715c05)
+> Last modified November 29, 2023: [Release v0.8.0 preparation (#1756) (6bb4f99)](https://github.com/pasabanov/docsy/commit/6bb4f99d1eab4976fb80d1488c81ba12b1715c05)
 > </div>
 {.border-0}
 

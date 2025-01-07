@@ -59,14 +59,14 @@ If you want to add a link to an external site to this menu, add it in `hugo.toml
 [[menu.main]]
     name = "GitHub"
     weight = 50
-    url = "https://github.com/google/docsy/"
+    url = "https://github.com/pasabanov/docsy/"
 {{< /tab >}}
 {{< tab header="hugo.yaml" lang="yaml" >}}
 menu:
   main:
     - name: GitHub
       weight: 50
-      url: 'https://github.com/google/docsy/'
+      url: 'https://github.com/pasabanov/docsy/'
 {{< /tab >}}
 {{< tab header="hugo.json" lang="json" >}}
 {
@@ -75,7 +75,7 @@ menu:
       {
         "name": "GitHub",
         "weight": 50,
-        "url": "https://github.com/google/docsy/"
+        "url": "https://github.com/pasabanov/docsy/"
       }
     ]
   }
@@ -93,7 +93,7 @@ As described in the [Hugo docs](https://gohugo.io/content-management/menus/#add-
 [[menu.main]]
     name = "GitHub"
     weight = 50
-    url = "https://github.com/google/docsy/"
+    url = "https://github.com/pasabanov/docsy/"
     pre = "<i class='fa-brands fa-github'></i>"
     post = "<span class='alert'>New!</span>"
 {{< /tab >}}
@@ -102,7 +102,7 @@ menu:
   main:
     - name: GitHub
       weight: 50
-      url: 'https://github.com/google/docsy/'
+      url: 'https://github.com/pasabanov/docsy/'
       pre: <i class='fa-brands fa-github'></i>
       post: <span class='alert'>New!</span>
 {{< /tab >}}
@@ -113,7 +113,7 @@ menu:
       {
         "name": "GitHub",
         "weight": 50,
-        "url": "https://github.com/google/docsy/",
+        "url": "https://github.com/pasabanov/docsy/",
         "pre": "<i class='fa-brands fa-github'></i>",
         "post": "<span class='alert'>New!</span>"
       }
@@ -340,5 +340,5 @@ override the heading self-link template
 [configuration file]:
   https://gohugo.io/getting-started/configuration/#configuration-file
 [layouts/_default/_markup/td-render-heading.html]:
-  https://github.com/google/docsy/tree/main/layouts/_default/_markup/td-render-heading.html
+  https://github.com/pasabanov/docsy/tree/main/layouts/_default/_markup/td-render-heading.html
 [hook]: https://gohugo.io/templates/render-hooks/

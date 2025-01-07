@@ -164,7 +164,7 @@ your project's root directory:
 1.  Install Docsy as a Git submodule:
 
     ```sh
-    git submodule add https://github.com/google/docsy.git themes/docsy
+    git submodule add https://github.com/pasabanov/docsy.git themes/docsy
     cd themes/docsy
     git checkout v{{% param version %}}
     ```
@@ -173,7 +173,7 @@ your project's root directory:
     following command instead:
 
     ```sh
-    git submodule add --depth 1 https://github.com/google/docsy.git themes/docsy
+    git submodule add --depth 1 https://github.com/pasabanov/docsy.git themes/docsy
     ```
 
 2.  Add Docsy as a theme, for example:
@@ -234,7 +234,7 @@ the following commands from your project's root directory:
 
 ```sh
 cd themes
-git clone -b v{{% param version %}} https://github.com/google/docsy
+git clone -b v{{% param version %}} https://github.com/pasabanov/docsy
 cd docsy
 npm install
 ```
@@ -267,7 +267,7 @@ You can use Docsy as an NPM module as follows:
 
     ```console
     npm init -y
-    npm install --save-dev google/docsy#semver:{{% param version %}} autoprefixer postcss-cli
+    npm install --save-dev pasabanov/docsy#semver:{{% param version %}} autoprefixer postcss-cli
     ```
 
     > **Important**: read the [Docsy NPM install side-effect] note.
@@ -295,7 +295,7 @@ Then run the following command and try again:
 npm rebuild
 ```
 
-[#2116]: https://github.com/google/docsy/issues/2116
+[#2116]: https://github.com/pasabanov/docsy/issues/2116
 
 {{% /alert %}}
 
@@ -328,8 +328,8 @@ folder is created via Docsy's `postinstall` script. To disable this behavior,
 set the environment variable `DOCSY_MKDIR_HUGO_MOD_SKIP=1` before running NPM
 install.
 
-[#1120]: https://github.com/google/docsy/issues/1120
-[0.8.0]: https://github.com/google/docsy/blob/main/CHANGELOG.md/#080
+[#1120]: https://github.com/pasabanov/docsy/issues/1120
+[0.8.0]: https://github.com/pasabanov/docsy/blob/main/CHANGELOG.md/#080
 [hugo module]: /docs/get-started/docsy-as-module/
 
 {{% /alert %}}
@@ -361,7 +361,7 @@ from scratch as it provides defaults for many required configuration parameters.
 - Add some [basic site configuration](/docs/get-started/basic-configuration/)
 - [Add content and customize your site](/docs/adding-content/)
 - Get some ideas from our
-  [Example Site](https://github.com/google/docsy-example) and other
+  [Example Site](https://github.com/pasabanov/docsy-example) and other
   [Examples](/docs/examples/).
 - [Publish your site](/docs/deployment/).
 

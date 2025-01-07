@@ -75,9 +75,9 @@ and feature consolidation.
 
 [blogged about elsewhere]:
   https://www.cncf.io/blog/2023/01/19/fast-and-effective-tools-for-cncf-and-open-source-project-websites/
-[docsy-analytics]: https://github.com/google/docsy/network/dependents
+[docsy-analytics]: https://github.com/pasabanov/docsy/network/dependents
 [ce]: https://github.com/kentcdodds/cross-env/issues/257
 [sc]: https://www.docsy.dev/blog/2022/hello/#introducing-the-psc
 [bs5-migration]: https://www.docsy.dev/blog/2023/bootstrap-5-migration/
-[share your thoughts]: https://github.com/google/docsy/discussions
-[quarterly milestones]: https://github.com/google/docsy/milestones
+[share your thoughts]: https://github.com/pasabanov/docsy/discussions
+[quarterly milestones]: https://github.com/pasabanov/docsy/milestones

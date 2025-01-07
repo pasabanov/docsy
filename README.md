@@ -1,10 +1,10 @@
 # Docsy
 
 [![Project status: active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![Project releases](https://img.shields.io/github/release/google/docsy)](https://github.com/google/docsy/releases)
+[![Project releases](https://img.shields.io/github/release/pasabanov/docsy)](https://github.com/pasabanov/docsy/releases)
 [![Project build Status](https://badges.netlify.com/api/docsydocs.svg?branch=main)](https://app.netlify.com/sites/docsydocs/deploys)
-[![Project contributors](https://img.shields.io/github/contributors/google/docsy)](https://github.com/google/docsy/graphs/contributors)
-[![Project license](https://img.shields.io/github/license/google/docsy)](https://github.com/google/docsy/blob/main/LICENSE)
+[![Project contributors](https://img.shields.io/github/contributors/pasabanov/docsy)](https://github.com/pasabanov/docsy/graphs/contributors)
+[![Project license](https://img.shields.io/github/license/pasabanov/docsy)](https://github.com/pasabanov/docsy/blob/main/LICENSE)
 
 > **🚧 WARNING 🚧 : `main` is under development and potentially unstable! Use
 > official Docsy [releases].**
@@ -14,6 +14,9 @@ providing simple navigation, site structure, and more.
 
 This is not an officially supported Google product. This project is actively
 being maintained.
+
+This project is a fork of [google/docsy](https://github.com/google/docsy).
+As part of the modifications, references to google have been replaced with my personal GitHub username. While care was taken during this process, some links or references may have been inadvertently updated incorrectly. If you notice any issues, feel free to open a pull request or an issue.
 
 ## Prerequisites
 
@@ -51,7 +54,7 @@ For complete prerequisites and instructions, see our
 ## Example and usage
 
 You can find an example project that uses Docsy in the
-[Docsy Example Project repo](https://github.com/google/docsy-example).The Docsy
+[Docsy Example Project repo](https://github.com/pasabanov/docsy-example).The Docsy
 Example Project is hosted at [example.docsy.dev](https://example.docsy.dev). For
 real-life examples of sites that use Docsy (and their source repos), see our
 [Examples](https://www.docsy.dev/docs/examples/) page.
@@ -59,10 +62,10 @@ real-life examples of sites that use Docsy (and their source repos), see our
 To use the Docsy theme for your own site:
 
 - (Recommended) Use the
-  [example project](https://github.com/google/docsy-example), which includes the
+  [example project](https://github.com/pasabanov/docsy-example), which includes the
   Docsy theme as a Hugo module, as a template to create your project. You can
   customize this pre-configured basic site into your own Docsy themed site.
-  [Learn more...](https://github.com/google/docsy-example)
+  [Learn more...](https://github.com/pasabanov/docsy-example)
 
 - Add Docsy to your existing Hugo site. You can add Docsy as a Hugo module, as a
   Git submodule, or clone the Docsy theme into your project.
@@ -82,7 +85,7 @@ Alternatively you can use Hugo to generate and serve a local copy of the guide
 all the prerequisites listed above:
 
 ```sh
-git clone --depth 1 https://github.com/google/docsy.git
+git clone --depth 1 https://github.com/pasabanov/docsy.git
 cd docsy/userguide/
 npm install
 npm run serve
@@ -97,12 +100,12 @@ requests, see [CONTRIBUTING.md]. Thank you to all past, present, and future
 ## License
 
 This project is licensed under the Apache License 2.0 - see
-[LICENSE](https://github.com/google/docsy/blob/main/LICENSE) for details
+[LICENSE](https://github.com/pasabanov/docsy/blob/main/LICENSE) for details
 
 [code of conduct]:
   https://github.com/google/.github/blob/master/CODE_OF_CONDUCT.md
-[CONTRIBUTING.md]: https://github.com/google/docsy/blob/main/CONTRIBUTING.md
-[contributors]: https://github.com/google/docsy/graphs/contributors
+[CONTRIBUTING.md]: https://github.com/pasabanov/docsy/blob/main/CONTRIBUTING.md
+[contributors]: https://github.com/pasabanov/docsy/graphs/contributors
 [deploys]: https://app.netlify.com/sites/docsydocs/deploys
 [netlify]: https://netlify.com
-[releases]: https://github.com/google/docsy/releases
+[releases]: https://github.com/pasabanov/docsy/releases

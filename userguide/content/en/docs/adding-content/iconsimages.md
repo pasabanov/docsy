@@ -44,7 +44,7 @@ name][].
 
 ## Use icons
 
-Docsy includes the free FontAwesome icons by default, including logos for sites like GitHub and Stack Overflow. You can view all available icons in the [FontAwesome documentation](https://fontawesome.com/icons/), including the FontAwesome version when the icon was added and whether it is available for free tier users. Check Docsy's [`package.json`](https://github.com/google/docsy/blob/main/package.json) and release notes for Docsy's currently included version of FontAwesome.
+Docsy includes the free FontAwesome icons by default, including logos for sites like GitHub and Stack Overflow. You can view all available icons in the [FontAwesome documentation](https://fontawesome.com/icons/), including the FontAwesome version when the icon was added and whether it is available for free tier users. Check Docsy's [`package.json`](https://github.com/pasabanov/docsy/blob/main/package.json) and release notes for Docsy's currently included version of FontAwesome.
 
 You can add FontAwesome icons to your [top-level menu](/docs/adding-content/navigation/#adding-icons-to-the-top-level-menu), [section menu](/docs/adding-content/navigation/#add-icons-to-the-section-menu), or anywhere in your text.
 
@@ -85,4 +85,3 @@ To add inline images to other pages, use the [`imgproc` shortcode](/docs/adding-
 ## Images used on this site
 
 Images used as background images in this site are in the [public domain](https://commons.wikimedia.org/wiki/User:Bep/gallery#Wed_Aug_01_16:16:51_CEST_2018) and can be used freely. The porridge image in the example site is by <a href="https://pixabay.com/users/iha31-560629/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=531209">iha31</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=531209">Pixabay</a>.
-

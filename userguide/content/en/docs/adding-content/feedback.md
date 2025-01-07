@@ -46,7 +46,7 @@ configuration file. For details, see [Configure Google Analytics][].
   googleAnalytics][alias-discussion].
 
   [alias-discussion]: https://discourse.gohugo.io/t/config-is-services-googleanalytics-id-an-alias-for-googleanalytics/39469
-  [unexpected behavior]: https://github.com/google/docsy/issues/921
+  [unexpected behavior]: https://github.com/pasabanov/docsy/issues/921
   [v0.120.0]: https://github.com/gohugoio/hugo/releases/tag/v0.120.0
 
 {{% /alert %}}
@@ -118,7 +118,7 @@ As of Docsy version [0.8.0], feedback will be enabled whether
 `site.Config.Services.GoogleAnalytics.ID` is set or not. This supports the use
 case where analytics is configured outside of Docsy.
 
-[0.8.0]: https://github.com/google/docsy/blob/main/CHANGELOG.md/#080
+[0.8.0]: https://github.com/pasabanov/docsy/blob/main/CHANGELOG.md/#080
 
 {{% /alert %}}
 
@@ -178,7 +178,7 @@ Page feedback is reported to Google Analytics through [events].
 As of Docsy version [0.8.0], page feedback is reported as custom `page_helpful` events,
 rather than `click` events.
 
-[0.8.0]: https://github.com/google/docsy/blob/main/CHANGELOG.md/#080
+[0.8.0]: https://github.com/pasabanov/docsy/blob/main/CHANGELOG.md/#080
 
 {{% /alert %}}
 
@@ -299,7 +299,7 @@ partial. For details, see [Customizing templates]({{< ref "lookandfeel#customizi
 [gtag.js]: https://support.google.com/analytics/answer/10220869
 [hugo-ga]: https://gohugo.io/templates/internal/#google-analytics
 [internal templates]: https://gohugo.io/templates/internal/
-[layouts/partials/page-description.html]: https://github.com/google/docsy/blob/main/layouts/partials/page-description.html
+[layouts/partials/page-description.html]: https://github.com/pasabanov/docsy/blob/main/layouts/partials/page-description.html
 [site `params`]: https://gohugo.io/variables/site/#the-siteparams-variable
 [summary]: https://gohugo.io/content-management/summaries/
 [configure]: #setup-1

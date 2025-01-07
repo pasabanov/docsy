@@ -15,21 +15,21 @@ Run the following from the command line:
 {{< tab header="Unix shell" lang="Bash" >}}
 cd /path/to/my-existing-site
 hugo mod init github.com/me-at-github/my-existing-site
-hugo mod get github.com/google/docsy@v{{% param "version" %}}
+hugo mod get github.com/pasabanov/docsy@v{{% param "version" %}}
 sed -i '/theme = \["docsy"\]/d' config.toml
 mv config.toml hugo.toml
 cat >> hugo.toml <<EOL
 [module]
 proxy = "direct"
 [[module.imports]]
-path = "github.com/google/docsy"
+path = "github.com/pasabanov/docsy"
 EOL
 hugo server
 {{< /tab >}}
 {{< tab header="Windows command line" lang="Batchfile" >}}
 cd  my-existing-site
 hugo mod init github.com/me-at-github/my-existing-site
-hugo mod get github.com/google/docsy@v{{% param "version" %}}
+hugo mod get github.com/pasabanov/docsy@v{{% param "version" %}}
 findstr /v /c:"theme = [\"docsy\"]" config.toml > hugo.toml
 (echo [module]^
 
@@ -37,7 +37,7 @@ proxy = "direct"^
 
 [[module.imports]]^
 
-path = "github.com/google/docsy")>>hugo.toml
+path = "github.com/pasabanov/docsy")>>hugo.toml
 hugo server
 {{< /tab >}}
 {{< /tabpane >}}
@@ -64,7 +64,7 @@ This creates two new files, `go.mod` for the module definitions and `go.sum` whi
 Next declare the Docsy theme module as a dependency for your site.
 
 ```bash
-hugo mod get github.com/google/docsy@v{{% param "version" %}}
+hugo mod get github.com/pasabanov/docsy@v{{% param "version" %}}
 ```
 
 This command adds the `docsy` theme module to your definition file `go.mod`.
@@ -91,15 +91,15 @@ Change this line to:
 {{< tabpane >}}
 {{< tab header="Configuration file:" disabled=true />}}
 {{< tab header="hugo.toml" lang="toml" >}}
-theme = ["github.com/google/docsy"]
+theme = ["github.com/pasabanov/docsy"]
 {{< /tab >}}
 {{< tab header="hugo.yaml" lang="yaml" >}}
 theme:
-  - github.com/google/docsy
+  - github.com/pasabanov/docsy
 {{< /tab >}}
 {{< tab header="hugo.json" lang="json" >}}
 "theme": [
-  "github.com/google/docsy"
+  "github.com/pasabanov/docsy"
 ]
 {{< /tab >}}
 {{< /tabpane >}}
@@ -112,12 +112,12 @@ Alternatively, you can omit this line altogether and replace it with the setting
 [module]
   proxy = "direct"
   # uncomment line below for temporary local development of module
-  # replacements = "github.com/google/docsy -> ../../docsy"
+  # replacements = "github.com/pasabanov/docsy -> ../../docsy"
   [module.hugoVersion]
     extended = true
     min = "0.73.0"
   [[module.imports]]
-    path = "github.com/google/docsy"
+    path = "github.com/pasabanov/docsy"
     disable = false
 {{< /tab >}}
 {{< tab header="hugo.yaml" lang="yaml" >}}
@@ -127,9 +127,9 @@ module:
     extended: true
     min: 0.73.0
   imports:
-    - path: github.com/google/docsy
+    - path: github.com/pasabanov/docsy
       disable: false
-    - path: github.com/google/docsy/dependencies
+    - path: github.com/pasabanov/docsy/dependencies
       disable: false
 {{< /tab >}}
 {{< tab header="hugo.json" lang="json" >}}
@@ -142,11 +142,11 @@ module:
     },
     "imports": [
       {
-        "path": "github.com/google/docsy",
+        "path": "github.com/pasabanov/docsy",
         "disable": false
       },
       {
-        "path": "github.com/google/docsy/dependencies",
+        "path": "github.com/pasabanov/docsy/dependencies",
         "disable": false
       }
     ]
@@ -174,9 +174,9 @@ To make sure that your configuration settings are correct, run the command `hugo
 ```bash
 hugo mod graph
 hugo: collected modules in 1092 ms
-github.com/me/my-existing-site github.com/google/docsy@v{{% param "version" %}}
-github.com/google/docsy@v{{% param "version" %}} github.com/twbs/bootstrap@v5.2.3+incompatible
-github.com/google/docsy@v{{% param "version" %}} github.com/FortAwesome/Font-Awesome@ v0.0.0-20230802202706-f0c25837a3fe
+github.com/me/my-existing-site github.com/pasabanov/docsy@v{{% param "version" %}}
+github.com/pasabanov/docsy@v{{% param "version" %}} github.com/twbs/bootstrap@v5.2.3+incompatible
+github.com/pasabanov/docsy@v{{% param "version" %}} github.com/FortAwesome/Font-Awesome@ v0.0.0-20230802202706-f0c25837a3fe
 ```
 
 Make sure that three lines with dependencies `docsy`, `bootstrap` and `Font-Awesome` are listed. If not, please double check your config settings.
@@ -188,7 +188,7 @@ In order to clean up your module cache, issue the command `hugo mod clean`
 hugo mod clean
 hugo: collected modules in 995 ms
 hugo: cleaned module cache for "github.com/FortAwesome/Font-Awesome"
-hugo: cleaned module cache for "github.com/google/docsy"
+hugo: cleaned module cache for "github.com/pasabanov/docsy"
 hugo: cleaned module cache for "github.com/twbs/bootstrap"
 ```
 {{% /alert %}}

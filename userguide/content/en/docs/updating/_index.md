@@ -18,7 +18,7 @@ Updating won't affect any modifications that you made in your own project to
 [override the Docsy look and feel](/docs/adding-content/lookandfeel/), as your
 overrides don't modify the theme itself. For details about what has changed in
 the theme since your last update, see the list of
-[Docsy commits](https://github.com/google/docsy/commits/main).
+[Docsy commits](https://github.com/pasabanov/docsy/commits/main).
 
 If you have been using the theme as a Git submodule, you can also update your
 site to use [Docsy as a Hugo Module](/docs/get-started/docsy-as-module/). This

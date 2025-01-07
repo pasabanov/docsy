@@ -2,7 +2,7 @@
   "name": "docsy",
   "version": "0.11.1-dev-unreleased",
   "version.next": "0.12.0-dev-unreleased",
-  "repository": "github:google/docsy",
+  "repository": "github:pasabanov/docsy",
   "homepage": "https://www.docsy.dev",
   "license": "Apache-2.0",
   "scripts": {
