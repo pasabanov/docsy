@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "_cd:docs": "cd userguide &&",
-    "_cp:bs-rfs": "npx cpy 'node_modules/bootstrap/scss/vendor/*' assets/_vendor/bootstrap/scss/",
+    "_cp:bs-rfs": "cp -r 'node_modules/bootstrap/scss/vendor/*' assets/_vendor/bootstrap/scss/",
     "_diff:check": "git diff --name-only --exit-code",
     "_gen-chroma-styles": "bash -c tools/gen-chroma-styles.sh && bash -c 'tools/gen-chroma-styles.sh -s onedark -o _dark.scss'",
     "_mkdir:hugo-mod": "node tools/mkdirp-hugo-mod.js ..",
@@ -29,16 +29,11 @@
     "serve": "npm run cd:docs serve",
     "test:all": "npm run ci:prepare && npm run check && npm run cd:docs test && npm run ci:post",
     "test": "npm run check && npm run cd:docs test",
-    "update:dep": "npm install --save-exact @fortawesome/fontawesome-free@latest bootstrap@latest",
-    "update:hugo": "npm install --save-exact -D hugo-extended@latest"
+    "update:dep": "npm install --save-exact @fortawesome/fontawesome-free@latest bootstrap@latest"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "6.7.2",
     "bootstrap": "5.3.3"
-  },
-  "devDependencies": {
-    "cpy-cli": "^5.0.0",
-    "hugo-extended": "^0.140.2"
   },
   "engines": {
     "node": ">=22"

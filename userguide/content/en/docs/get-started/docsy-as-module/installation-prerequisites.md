@@ -54,16 +54,6 @@ If the result is `v0.109.0` or earlier, or if you don't see `Extended`, you'll n
 
 Install Hugo using [Brew](https://gohugo.io/getting-started/installing/#homebrew-macos).
 
-### As an `npm` module
-
-You can install Hugo as an `npm` module using [`hugo-bin`](https://www.npmjs.com/package/hugo-bin). This adds `hugo-bin` to your `node_modules` folder and adds the dependency to your `package.json` file.  To install the extended version of Hugo:
-
-```bash
-npm install hugo-extended --save-dev
-```
-
-See the [`hugo-bin` documentation](https://www.npmjs.com/package/hugo-bin) for usage details.
-
 ## Install Go language
 
 Hugo's commands for module management require that the Go programming language is installed on your system. Check whether `go` is already installed:
@@ -109,26 +99,7 @@ Note that versions of `PostCSS` later than 5.0.1 will not load `autoprefixer` if
 
 ## Install/Upgrade Node.js
 
-To ensure you can properly build your site beyond executing `hugo server`, you must have the [latest long term support (LTS) Version](https://nodejs.org/en/about/releases/) of Node.js. If you do not have the latest LTS version, you may see the one of following errors:
-
-```
-Error: Error building site: POSTCSS: failed to transform "scss/main.css" (text/css): Unexpected identifier
-#OR
-/home/user/repos/my-new-site/themes/docsy/node_modules/hugo-extended/postinstall.js:1
-import install from "./lib/install.js";
-       ^^^^^^^
-
-SyntaxError: Unexpected identifier
-    at Module._compile (internal/modules/cjs/loader.js:723:23)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
-    at Module.load (internal/modules/cjs/loader.js:653:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
-    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
-    at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
-
-```
+To ensure you can properly build your site beyond executing `hugo server`, you must have the [latest long term support (LTS) Version](https://nodejs.org/en/about/releases/) of Node.js.
 
 You can check your current Node.js version by running `node -v`.  If you need to install a new version, see the following instructions:
 
@@ -157,7 +128,6 @@ You can check your current Node.js version by running `node -v`.  If you need to
    # No root privileges
    curl -fsSL https://rpm.nodesource.com/setup_20.x | sudo bash -
    ```
-
 
 ## What's next?
 

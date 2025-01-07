@@ -89,16 +89,6 @@ The following shows you how to install Hugo from the release page:
 Install Hugo using
 [Brew](https://gohugo.io/getting-started/installing/#homebrew-macos).
 
-#### As an NPM module
-
-You can install Hugo as an NPM module using
-[hugo-extended](https://www.npmjs.com/package/hugo-extended). To install the
-extended version of Hugo:
-
-```sh
-npm install hugo-extended --save-dev
-```
-
 ### Node: Get the latest LTS release
 
 If you have Node installed already, check your version of Node. For example:

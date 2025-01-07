@@ -655,10 +655,6 @@
     "StatusCode": 200,
     "LastSeen": "2024-12-12T10:11:39.929875-05:00"
   },
-  "https://github.com/jakejarvis/hugo-extended": {
-    "StatusCode": 200,
-    "LastSeen": "2024-11-06T12:03:42.875509-05:00"
-  },
   "https://github.com/jmooring": {
     "StatusCode": 200,
     "LastSeen": "2024-11-06T12:04:47.078828-05:00"
