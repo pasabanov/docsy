@@ -43,7 +43,6 @@ Example sites that include a moderate to high amount of customization:
 | Site  | Repo |
 |---|---|
 | [Apache Airflow](https://airflow.apache.org/) | https://github.com/apache/airflow-site/ |
-| [Docsy Mostly Docs](https://mostlydocs.netlify.app/) | https://github.com/gwatts/mostlydocs/ |
 | [Kubernetes](https://kubernetes.io) | https://github.com/kubernetes/website |
 | [XLT](https://xltdoc.xceptance.com/) | https://github.com/Xceptance/xlt-documentation |
 | [Dapr](https://docs.dapr.io/) | https://github.com/dapr/docs |

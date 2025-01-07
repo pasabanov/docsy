@@ -38,11 +38,10 @@
   },
   "devDependencies": {
     "cpy-cli": "^5.0.0",
-    "hugo-extended": "^0.140.2",
-    "netlify-cli": "^18.0.0"
+    "hugo-extended": "^0.140.2"
   },
   "engines": {
     "node": ">=22"
   },
-  "spelling": "cSpell:ignore docsy hugo fortawesome fontawesome onedark twbs netlify pkgs userguide -"
+  "spelling": "cSpell:ignore docsy hugo fortawesome fontawesome onedark twbs pkgs userguide -"
 }

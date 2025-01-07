@@ -36,8 +36,7 @@ Docsy itself does **not** provide:
   use (such as letting users file documentation issues) and site deployment
   options.
 - **Site deployment**: You can find out about deployment options in
-  [Previews and Deployment](/docs/deployment/). This site uses
-  [Netlify](https://www.netlify.com/).
+  [Previews and Deployment](/docs/deployment/).
 
 Docsy also doesn't actually generate your site's HTML files: that's Hugo's job!
 Hugo takes your Markdown or HTML doc source files and Docsy's theme files and

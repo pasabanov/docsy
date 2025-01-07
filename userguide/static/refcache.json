@@ -7,10 +7,6 @@
     "StatusCode": 200,
     "LastSeen": "2024-11-06T12:03:15.322149-05:00"
   },
-  "https://app.netlify.com/sites/docsydocs/deploys": {
-    "StatusCode": 206,
-    "LastSeen": "2024-11-06T12:03:35.841165-05:00"
-  },
   "https://bitbucket.org/product": {
     "StatusCode": 200,
     "LastSeen": "2024-11-06T12:03:35.872023-05:00"
@@ -839,10 +835,6 @@
     "StatusCode": 200,
     "LastSeen": "2024-12-12T12:56:53.763004-05:00"
   },
-  "https://netlify.com": {
-    "StatusCode": 206,
-    "LastSeen": "2024-11-06T12:04:17.787685-05:00"
-  },
   "https://opensource.google.com/conduct/": {
     "StatusCode": 200,
     "LastSeen": "2024-11-06T12:03:46.449139-05:00"
@@ -1134,18 +1126,6 @@
   "https://www.docsy.dev/tags/tagging/index.xml": {
     "StatusCode": 206,
     "LastSeen": "2024-11-06T12:02:49.341504-05:00"
-  },
-  "https://www.netlify.com": {
-    "StatusCode": 206,
-    "LastSeen": "2024-11-06T12:03:04.805936-05:00"
-  },
-  "https://www.netlify.com/": {
-    "StatusCode": 206,
-    "LastSeen": "2024-11-06T12:03:41.203421-05:00"
-  },
-  "https://www.netlify.com/img/global/badges/netlify-color-accent.svg": {
-    "StatusCode": 206,
-    "LastSeen": "2024-11-06T12:03:10.241411-05:00"
   },
   "https://www.repostatus.org/#active": {
     "StatusCode": 206,

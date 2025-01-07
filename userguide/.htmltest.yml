@@ -22,5 +22,4 @@ IgnoreURLs: # list of regexs of paths or URLs to be ignored
   - ^https?://github\.com/.*?/.*?/(blob|tree)/
   - ^https://twitter.com/docsydocs$
   # Too flaky or unnecessary
-  - ^https://badges.netlify.com/api
   - ^https://code.jquery.com
