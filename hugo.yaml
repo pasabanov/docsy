@@ -22,9 +22,9 @@ module:
   mounts:
     - source: assets
       target: assets
-    - source: node_modules/bootstrap
+    - source: assets/vendor/bootstrap
       target: assets/vendor/bootstrap
-    - source: node_modules/@fortawesome/fontawesome-free
+    - source: assets/vendor/Font-Awesome
       target: assets/vendor/Font-Awesome
     - source: i18n
       target: i18n
@@ -32,32 +32,5 @@ module:
       target: layouts
     - source: static
       target: static
-    - source: node_modules/@fortawesome/fontawesome-free/webfonts
+    - source: assets/vendor/Font-Awesome/webfonts
       target: static/webfonts
-    # Mounts for projects using Docsy as an NPM package. The source path prefix
-    # "../.." moves out of themes/docsy so that Docsy can find its dependencies.
-    - source: ../../node_modules/bootstrap
-      target: assets/vendor/bootstrap
-    - source: ../../node_modules/@fortawesome/fontawesome-free
-      target: assets/vendor/Font-Awesome
-    - source: ../../node_modules/@fortawesome/fontawesome-free/webfonts
-      target: static/webfonts
-    # Mounts for module installations,
-    # needed to work around a known bug in Go’s module management.
-    - source: assets/_vendor/bootstrap/scss
-      target: assets/vendor/bootstrap/scss/vendor
-  imports:
-    - path: github.com/twbs/bootstrap
-      disable: false
-      mounts:
-        - source: scss
-          target: assets/vendor/bootstrap/scss
-        - source: dist/js
-          target: assets/vendor/bootstrap/dist/js
-    - path: github.com/FortAwesome/Font-Awesome
-      disable: false
-      mounts:
-        - source: scss
-          target: assets/vendor/Font-Awesome/scss
-        - source: webfonts
-          target: static/webfonts
